@@ -13,5 +13,11 @@ namespace HelloDotNet.Controllers
         {
             return View();
         }
+
+        // GET: /hello/test
+        public ActionResult Test()
+        {
+            return View();
+        }
     }
 }
