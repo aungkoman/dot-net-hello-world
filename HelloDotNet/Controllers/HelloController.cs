@@ -19,5 +19,12 @@ namespace HelloDotNet.Controllers
         {
             return View();
         }
+
+        // GET: /hello/id/{id}
+        public ActionResult Id(int id)
+        {
+            ViewBag.Id = id;
+            return View();
+        }
     }
 }
