@@ -26,5 +26,7 @@ namespace HelloDotNet.Controllers
             ViewBag.Id = id;
             return View();
         }
+
+        // let's start with models
     }
 }
